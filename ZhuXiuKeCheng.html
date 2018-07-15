@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+<link   href="bootstrap-4.0.0-dist/css/bootstrap.css"   rel="stylesheet">
+<link   href="bootstrap/css/bootstrap-responsive.min.css"  rel="stylesheet">
+<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<style>
+#bgphoto{ color:#FFF;
+   	background:url(bootstrap-4.0.0-dist/img/472309f790529822dded854fd1ca7bcb0b46d464.jpg)
+}
+</style>
+
+<body >
+<script   src="bootstrap-4.0.0-dist/js/jquery-3.2.1.min.js"></script>
+<script   src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+<script    src="bootstrap-4.0.0-dist/js/tether.min.js"></script>
+
+                  <!--nav导航模块-->
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a href="index.html" class="navbar-brand">
+            <img class="rounded-circle" src="bootstrap-4.0.0-dist/img/2008328113946615.jpg" width="35" height="35"  >
+           Jack
+        </a>
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsible"> <!--toggler隐藏意思-->
+              <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsible"><!--collapse折叠意思 id="collapsible"与上面button对应-->
+             <ul class="navbar-nav"> <!--导航里面的文字-->
+            
+            
+                  <li class="nav-item">
+                      <a  href="JiBenZiLiao.html" class="nav-link">基本信息</a>
+                    </li>
+                 
+                 
+                  <li class="nav-item">
+                      <a  href="ZhuXiuKeCheng.html" class="nav-link">主修课程</a>
+                    </li>
+               
+               
+                    <li class="nav-item">
+                      <a  href="GeRenJiNeng.html" class="nav-link">个人技能</a>
+                    </li>
+                  
+                  
+                    <li class="nav-item">
+                      <a  href="XiangMuShiJian.html" class="nav-link">项目实践</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a  href="GeRenPingJia.html" class="nav-link">自我评价</a>
+                    </li>
+                   
+            </ul>
+          </div>
+       </nav>
+       
+         
+   
+   
+ <!-- <div> 元素是块级元素，它是可用于组合其他 HTML 元素的容器。-->   
+  <!-- <span> 元素是内联元素，可用作文本的容器。<span> 元素也没有特定的含义。。--> 
+  
+               <!-- 左边模块。。--> 
+       <br>
+       <br>
+       <br>
+  <div class="container">
+      <div class="row">
+                
+                 <!-- 上边模块。--> 
+         <div class="border col-2 hidden-phone " >
+               <div class="jumbotron"><!--大屏幕-->
+                  <img class="text-center" alt="spiderMan"  height="120" width="120" src="bootstrap-4.0.0-dist/img/2008328113946615.jpg">
+                    <hr class="my-4">
+                    <p class="text-center">Jack</p><!--text-center居中-->
+                    <span class="badge badge-danger">热爱编程</span><!--badge徽章-->
+                    <span class="badge badge-info">篮球</span><br>
+                    <span class="badge badge-dark">Java</span>
+               </div>
+                  
+                  
+                  <hr>
+                 <!-- 下边模块。--> 
+                <div class="list-group">
+                    <a class=" list-group-item bg-dark active" href="#">分类</a>
+                    <a class="list-group-item">篮球</a>
+                    <a class="list-group-item">电影</a>
+                    <a class="list-group-item">Java</a>        
+                </div> 
+                                         
+          </div>
+               
+               
+               
+                <!-- 右边模块。--> 
+          <div class="col"> 
+              <div class="list-group ">
+                 <div class="list-group-item  bg-dark active" >
+                 <h5>主修课程</h5>
+                 </div>
+                 
+               <a   href="#" class="list-group-item  list-group-item-action">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《数据结构与算法》</h5>
+                    <small class="text-muted" > 2017.7.10</small>
+                  </div>
+                  <p class="mb-1">
+                   <span class="badge badge-primary" >线性表</span>
+                   <span class="badge badge-dark" >栈与队列</span>
+                   <span class="badge  badge-warning" >树与二叉树</span>
+                   <span class="badge  badge-danger" >图</span>
+                   </p>
+               </a>  
+               
+                <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《计算机网络》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                  <span class="badge  badge-primary" >资源共享</span>
+                   <span class="badge badge-dark" >数据传输</span>
+                   </p>
+               </a>  
+               
+                <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《操作系统原理》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge badge-primary" >并发</span>
+                    <span class="badge badge-dark" >共享</span>
+                    <span class="badge  badge-warning" >虚拟</span>
+                    <span class="badge  badge-danger" >异步</span>
+                   </p>
+               </a>  
+               
+                <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《Java/C++程序设计》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                   <span class="badge badge-primary" >面向对象</span>
+                   <span class="badge badge-dark" >封装、继承、多态</span>
+                   </p>
+               </a>  
+               
+                <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《HTML5网页设计/移动WEB开发》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge badge-primary" >JavaScript</span>
+                   <span class="badge badge-dark" >CSS</span>
+                   </p>
+               </a>  
+               
+                <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《软件工程》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                   <span class="badge badge-primary" >设计模式</span>
+                 </p>
+               </a>  
+               
+                <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《数据库原理》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                   <span class="badge badge-primary" >MySQL</span>
+                   <span class="badge badge-dark" >Oracle</span>
+                   </p>
+               </a>  
+               
+                <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《Android终端开发》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                   <span class="badge badge-primary" >Android</span>
+                   <span class="badge badge-dark" >UI</span>
+                   </p>
+               </a>  
+               
+                <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《Hibernate 对象映射》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                   <span class="badge badge-primary" >对象持久</span>
+                   <span class="badge badge-dark" >数据库表</span>
+                   </p>
+               </a>  
+               
+                 <a href="#" class="list-group-item list-group-item-action ">
+                  <div class=" d-flex w-100 justify-content-between">
+                     <h5 class="mb-1">《Weblogic Server》</h5>
+                    <small class="text-muted" > 2017.8.10</small>
+                  </div>
+                  <p class="mb-1">
+                   <span class="badge badge-primary" >MVC</span>
+                   <span class="badge badge-dark" >Jsp</span>
+                   </p>
+               </a>  
+               
+                
+               
+              
+              
+              
+               
+               
+                
+              </div>
+          
+          
+          </div>
+         
+         
+         
+         
+         
+      </div>
+       
+  </div>  
+                 <div class=" fixed-bottom">
+                  <div class=" d-flex  justify-content-center">
+                        <small class="text-muted">907560770@qq.com</small>
+                  </div>
+           </div>
+
+
+</body>
+</html>
